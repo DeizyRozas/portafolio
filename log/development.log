@@ -1,0 +1,1923 @@
+Started GET "/" for 127.0.0.1 at 2023-06-16 16:27:30 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 11.0ms | Allocations: 562)
+  Rendered layout layouts/application.html.erb (Duration: 5973.3ms | Allocations: 138530)
+Completed 200 OK in 6136ms (Views: 6005.1ms | ActiveRecord: 0.0ms | Allocations: 148527)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 16:28:39 -0400
+  
+SyntaxError (/home/inforcap/RoR/portafolio/config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+  get '/'proyects', to: "pages/proyects"
+         ^~~~~~~~
+/home/inforcap/RoR/portafolio/config/routes.rb:4: syntax error, unexpected local variable or method, expecting end-of-input
+  get 'pages/contact'
+       ^~~~~
+):
+  
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:4: syntax error, unexpected local variable or method, expecting end-of-input
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:4: syntax error, unexpected local variable or method, expecting end-of-input
+config/routes.rb:3: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:4: syntax error, unexpected local variable or method, expecting end-of-input
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 16:28:52 -0400
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 16:31:00 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 11.9ms | Allocations: 156)
+  Rendered layout layouts/application.html.erb (Duration: 123.9ms | Allocations: 18486)
+Completed 200 OK in 141ms (Views: 132.1ms | Allocations: 19417)
+
+
+Started GET "/..." for 127.0.0.1 at 2023-06-16 16:31:00 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 16:41:05 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 16.9ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 56.5ms | Allocations: 6489)
+Completed 200 OK in 70ms (Views: 63.2ms | Allocations: 7683)
+
+
+Started GET "/portafolio/app/assets/images/design.jpg" for 127.0.0.1 at 2023-06-16 16:41:05 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/portafolio/app/assets/images/design.jpg"):
+  
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 16:41:12 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 33.7ms | Allocations: 5850)
+Completed 200 OK in 39ms (Views: 35.6ms | Allocations: 6184)
+
+
+Started GET "/portafolio/app/assets/images/design.jpg" for 127.0.0.1 at 2023-06-16 16:41:12 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/portafolio/app/assets/images/design.jpg"):
+  
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 16:41:24 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 15.5ms | Allocations: 160)
+  Rendered layout layouts/application.html.erb (Duration: 45.5ms | Allocations: 6490)
+Completed 200 OK in 60ms (Views: 53.7ms | Allocations: 7665)
+
+
+Started GET "/app/assets/images/design.jpg" for 127.0.0.1 at 2023-06-16 16:41:24 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/design.jpg"):
+  
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 16:41:33 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 10.1ms | Allocations: 159)
+  Rendered layout layouts/application.html.erb (Duration: 43.0ms | Allocations: 6495)
+Completed 200 OK in 53ms (Views: 48.1ms | Allocations: 7686)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/design.jpg"):
+  
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 16:43:06 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 10.1ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 55.3ms | Allocations: 6489)
+Completed 200 OK in 71ms (Views: 66.1ms | Allocations: 7690)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/design.jpg"):
+  
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 16:43:20 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 0.3ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 35.5ms | Allocations: 5830)
+Completed 200 OK in 42ms (Views: 37.6ms | Allocations: 6158)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/design.jpg"):
+  
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 16:44:11 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 12.5ms | Allocations: 164)
+  Rendered layout layouts/application.html.erb (Duration: 55.1ms | Allocations: 6495)
+Completed 200 OK in 70ms (Views: 65.7ms | Allocations: 7675)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 16:44:56 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 13.8ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 41.3ms | Allocations: 6496)
+Completed 200 OK in 55ms (Views: 49.2ms | Allocations: 7696)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 16:45:36 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 11.5ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 49.7ms | Allocations: 6483)
+Completed 200 OK in 70ms (Views: 62.0ms | Allocations: 7682)
+
+
+Started GET "/portafolio/app/assets/images/design.jpg" for 127.0.0.1 at 2023-06-16 16:45:36 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/portafolio/app/assets/images/design.jpg"):
+  
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 16:46:03 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 12.1ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 47.9ms | Allocations: 6490)
+Completed 200 OK in 63ms (Views: 56.4ms | Allocations: 7681)
+
+
+Started GET "/app/assets/images/design.jpg" for 127.0.0.1 at 2023-06-16 16:46:03 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/design.jpg"):
+  
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 16:46:22 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 13.3ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 43.2ms | Allocations: 6485)
+Completed 200 OK in 60ms (Views: 50.4ms | Allocations: 7676)
+
+
+Started GET "/design.jpg" for 127.0.0.1 at 2023-06-16 16:46:22 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/design.jpg"):
+  
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 16:53:11 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 459.5ms | Allocations: 31060)
+  Rendered layout layouts/application.html.erb (Duration: 487.3ms | Allocations: 37117)
+Completed 200 OK in 498ms (Views: 492.6ms | Allocations: 38308)
+
+
+Started GET "/%3Cimg" for 127.0.0.1 at 2023-06-16 16:53:12 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/%3Cimg"):
+  
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 16:53:50 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 20.6ms | Allocations: 922)
+  Rendered layout layouts/application.html.erb (Duration: 60.4ms | Allocations: 6983)
+Completed 200 OK in 73ms (Views: 66.5ms | Allocations: 8179)
+
+
+Started GET "/%3Cimg%20src=%22/assets/design-66127ca4bc5a643da8505809e55e8a9fd292a1e45a1f412b808d941da1c2352d.jpg%22%20/%3E" for 127.0.0.1 at 2023-06-16 16:53:50 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/%3Cimg%20src=%22/assets/design-66127ca4bc5a643da8505809e55e8a9fd292a1e45a1f412b808d941da1c2352d.jpg%22%20/%3E"):
+  
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 16:54:09 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 14.3ms | Allocations: 910)
+  Rendered layout layouts/application.html.erb (Duration: 45.0ms | Allocations: 6972)
+Completed 200 OK in 63ms (Views: 51.8ms | Allocations: 8164)
+
+
+Started GET "/%3Cimg" for 127.0.0.1 at 2023-06-16 16:54:09 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/%3Cimg"):
+  
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 16:55:47 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 35.0ms | Allocations: 940)
+  Rendered layout layouts/application.html.erb (Duration: 66.2ms | Allocations: 6997)
+Completed 200 OK in 82ms (Views: 73.8ms | Allocations: 8188)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 16:59:00 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 47.3ms | Allocations: 1946)
+  Rendered layout layouts/application.html.erb (Duration: 79.0ms | Allocations: 8002)
+Completed 200 OK in 93ms (Views: 87.4ms | Allocations: 9201)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 17:00:37 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 54.0ms | Allocations: 1953)
+  Rendered layout layouts/application.html.erb (Duration: 84.3ms | Allocations: 7991)
+Completed 200 OK in 94ms (Views: 88.9ms | Allocations: 9190)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-16 17:01:08 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 41.9ms | Allocations: 1952)
+  Rendered layout layouts/application.html.erb (Duration: 76.7ms | Allocations: 8014)
+Completed 200 OK in 91ms (Views: 84.5ms | Allocations: 9213)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-17 21:30:31 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 262.0ms | Allocations: 1963)
+  Rendered layout layouts/application.html.erb (Duration: 822.8ms | Allocations: 8019)
+Completed 200 OK in 1077ms (Views: 957.9ms | Allocations: 9219)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-17 21:32:16 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 165.4ms | Allocations: 1963)
+  Rendered layout layouts/application.html.erb (Duration: 270.3ms | Allocations: 8010)
+Completed 200 OK in 298ms (Views: 287.1ms | Allocations: 9209)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-17 21:32:37 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 194.8ms | Allocations: 1966)
+  Rendered layout layouts/application.html.erb (Duration: 318.5ms | Allocations: 8012)
+Completed 200 OK in 401ms (Views: 372.5ms | Allocations: 9211)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-17 21:33:08 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 75.7ms | Allocations: 1980)
+  Rendered layout layouts/application.html.erb (Duration: 158.5ms | Allocations: 8024)
+Completed 200 OK in 168ms (Views: 164.4ms | Allocations: 9223)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-17 21:34:23 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 65.1ms | Allocations: 1980)
+  Rendered layout layouts/application.html.erb (Duration: 130.4ms | Allocations: 8040)
+Completed 200 OK in 152ms (Views: 136.2ms | Allocations: 9239)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-17 21:34:31 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 49.3ms | Allocations: 1979)
+  Rendered layout layouts/application.html.erb (Duration: 110.4ms | Allocations: 8031)
+Completed 200 OK in 133ms (Views: 125.9ms | Allocations: 9230)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-17 21:35:23 -0400
+Processing by PagesController#proyects as */*
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 44.1ms | Allocations: 2202)
+  Rendered layout layouts/application.html.erb (Duration: 87.4ms | Allocations: 7789)
+Completed 200 OK in 99ms (Views: 89.7ms | Allocations: 9093)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-17 21:36:06 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 55.8ms | Allocations: 1979)
+  Rendered layout layouts/application.html.erb (Duration: 107.2ms | Allocations: 8033)
+Completed 200 OK in 117ms (Views: 113.0ms | Allocations: 9215)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-17 21:36:51 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 20.5ms | Allocations: 1518)
+  Rendered layout layouts/application.html.erb (Duration: 488.9ms | Allocations: 7210)
+Completed 200 OK in 495ms (Views: 491.4ms | Allocations: 7538)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-17 23:37:57 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 2947.3ms | Allocations: 47755)
+  Rendered shared/_navbar.html.erb (Duration: 2.3ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 3147.9ms | Allocations: 72626)
+Completed 200 OK in 3360ms (Views: 3191.8ms | ActiveRecord: 0.0ms | Allocations: 79771)
+
+
+Started GET "/proyects/home" for 127.0.0.1 at 2023-06-17 23:43:04 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/proyects/home"):
+  
+Started GET "/pages/home" for 127.0.0.1 at 2023-06-17 23:43:20 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 7.2ms | Allocations: 117)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 62.2ms | Allocations: 6263)
+Completed 200 OK in 82ms (Views: 67.8ms | ActiveRecord: 0.0ms | Allocations: 6677)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2023-06-17 23:51:02 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.6ms | Allocations: 138)
+  Rendered shared/_navbar.html.erb (Duration: 16.0ms | Allocations: 424)
+  Rendered layout layouts/application.html.erb (Duration: 71.8ms | Allocations: 7106)
+Completed 200 OK in 100ms (Views: 88.7ms | Allocations: 8280)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2023-06-17 23:51:20 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 4.2ms | Allocations: 138)
+  Rendered shared/_navbar.html.erb (Duration: 16.4ms | Allocations: 414)
+  Rendered layout layouts/application.html.erb (Duration: 74.3ms | Allocations: 7094)
+Completed 200 OK in 97ms (Views: 83.1ms | Allocations: 8302)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2023-06-17 23:53:49 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 138)
+  Rendered shared/_navbar.html.erb (Duration: 19.1ms | Allocations: 429)
+  Rendered layout layouts/application.html.erb (Duration: 52.5ms | Allocations: 7094)
+Completed 200 OK in 70ms (Views: 64.1ms | Allocations: 8302)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2023-06-17 23:54:34 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 138)
+  Rendered shared/_navbar.html.erb (Duration: 56.9ms | Allocations: 467)
+  Rendered layout layouts/application.html.erb (Duration: 107.2ms | Allocations: 7142)
+Completed 200 OK in 124ms (Views: 117.1ms | Allocations: 8341)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2023-06-18 01:19:39 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 5.8ms | Allocations: 457)
+  Rendered shared/_navbar.html.erb (Duration: 23.9ms | Allocations: 548)
+  Rendered layout layouts/application.html.erb (Duration: 1899.1ms | Allocations: 57904)
+Completed 200 OK in 2048ms (Views: 1936.7ms | ActiveRecord: 0.0ms | Allocations: 65049)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-18 01:19:44 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 42.8ms | Allocations: 6289)
+Completed 200 OK in 50ms (Views: 45.2ms | ActiveRecord: 0.0ms | Allocations: 6670)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-18 01:19:46 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 38.3ms | Allocations: 6087)
+Completed 200 OK in 43ms (Views: 39.9ms | ActiveRecord: 0.0ms | Allocations: 6407)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-18 01:19:50 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 37.1ms | Allocations: 6077)
+Completed 200 OK in 46ms (Views: 42.1ms | ActiveRecord: 0.0ms | Allocations: 6395)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-18 01:20:07 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 91.8ms | Allocations: 2052)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 144)
+  Rendered layout layouts/application.html.erb (Duration: 170.6ms | Allocations: 26053)
+Completed 200 OK in 182ms (Views: 175.4ms | Allocations: 26981)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-18 01:21:30 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 144)
+  Rendered layout layouts/application.html.erb (Duration: 97.3ms | Allocations: 24308)
+Completed 200 OK in 105ms (Views: 100.6ms | Allocations: 25161)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-18 01:28:44 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 10.3ms | Allocations: 456)
+  Rendered shared/_navbar.html.erb (Duration: 5.3ms | Allocations: 559)
+  Rendered layout layouts/application.html.erb (Duration: 1233.8ms | Allocations: 60438)
+Completed 200 OK in 1358ms (Views: 1258.7ms | ActiveRecord: 0.0ms | Allocations: 67576)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 01:29:00 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 38.8ms | Allocations: 1883)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 82.7ms | Allocations: 7669)
+Completed 200 OK in 96ms (Views: 87.1ms | ActiveRecord: 0.0ms | Allocations: 8074)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-18 01:29:03 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 17.2ms | Allocations: 116)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 50.3ms | Allocations: 6160)
+Completed 200 OK in 59ms (Views: 52.3ms | ActiveRecord: 0.0ms | Allocations: 6537)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 01:29:04 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 24.5ms | Allocations: 1522)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 60.1ms | Allocations: 7380)
+Completed 200 OK in 69ms (Views: 63.8ms | ActiveRecord: 0.0ms | Allocations: 7700)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-18 01:29:13 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 49.9ms | Allocations: 5995)
+Completed 200 OK in 60ms (Views: 53.2ms | ActiveRecord: 0.0ms | Allocations: 6311)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 01:53:14 -0400
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 01:53:14 -0400
+Processing by PagesController#proyects as HTML
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 921.9ms | Allocations: 43623)
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 1217.5ms | Allocations: 70784)
+  Rendered shared/_navbar.html.erb (Duration: 11.1ms | Allocations: 1223)
+  Rendered layout layouts/application.html.erb (Duration: 1410.9ms | Allocations: 99366)
+Completed 200 OK in 1516ms (Views: 1445.3ms | ActiveRecord: 0.0ms | Allocations: 107126)
+
+
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 1497.1ms | Allocations: 105262)
+Completed 200 OK in 1604ms (Views: 1526.3ms | ActiveRecord: 0.0ms | Allocations: 113102)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 01:55:18 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 104.4ms | Allocations: 1987)
+  Rendered shared/_navbar.html.erb (Duration: 3.3ms | Allocations: 523)
+  Rendered layout layouts/application.html.erb (Duration: 178.5ms | Allocations: 8695)
+Completed 200 OK in 203ms (Views: 189.2ms | ActiveRecord: 0.0ms | Allocations: 9941)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 01:56:10 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 86.6ms | Allocations: 1989)
+  Rendered shared/_navbar.html.erb (Duration: 4.0ms | Allocations: 523)
+  Rendered layout layouts/application.html.erb (Duration: 150.3ms | Allocations: 8685)
+Completed 200 OK in 173ms (Views: 160.8ms | ActiveRecord: 0.0ms | Allocations: 9893)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 01:57:26 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 34.4ms | Allocations: 1982)
+  Rendered shared/_navbar.html.erb (Duration: 6.1ms | Allocations: 523)
+  Rendered layout layouts/application.html.erb (Duration: 113.9ms | Allocations: 8680)
+Completed 200 OK in 138ms (Views: 126.1ms | ActiveRecord: 0.0ms | Allocations: 9888)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 01:57:40 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 100.8ms | Allocations: 1983)
+  Rendered shared/_navbar.html.erb (Duration: 3.7ms | Allocations: 523)
+  Rendered layout layouts/application.html.erb (Duration: 182.7ms | Allocations: 8673)
+Completed 200 OK in 208ms (Views: 195.5ms | ActiveRecord: 0.0ms | Allocations: 9881)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 01:58:17 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 77.6ms | Allocations: 1983)
+  Rendered shared/_navbar.html.erb (Duration: 2.3ms | Allocations: 523)
+  Rendered layout layouts/application.html.erb (Duration: 135.4ms | Allocations: 8681)
+Completed 200 OK in 151ms (Views: 143.3ms | ActiveRecord: 0.0ms | Allocations: 9899)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 01:59:27 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 88.3ms | Allocations: 1983)
+  Rendered shared/_navbar.html.erb (Duration: 3.8ms | Allocations: 523)
+  Rendered layout layouts/application.html.erb (Duration: 163.8ms | Allocations: 8683)
+Completed 200 OK in 188ms (Views: 174.9ms | Allocations: 9881)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 01:59:57 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 105.6ms | Allocations: 1990)
+  Rendered shared/_navbar.html.erb (Duration: 9.2ms | Allocations: 523)
+  Rendered layout layouts/application.html.erb (Duration: 204.6ms | Allocations: 8696)
+Completed 200 OK in 231ms (Views: 217.1ms | Allocations: 9894)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:00:37 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 180.8ms | Allocations: 1985)
+  Rendered shared/_navbar.html.erb (Duration: 4.2ms | Allocations: 523)
+  Rendered layout layouts/application.html.erb (Duration: 264.6ms | Allocations: 8699)
+Completed 200 OK in 289ms (Views: 278.2ms | Allocations: 9907)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:05:27 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 83.8ms | Allocations: 1985)
+  Rendered shared/_navbar.html.erb (Duration: 3.3ms | Allocations: 523)
+  Rendered layout layouts/application.html.erb (Duration: 157.1ms | Allocations: 8679)
+Completed 200 OK in 180ms (Views: 170.5ms | Allocations: 9877)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:06:32 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 35.6ms | Allocations: 1982)
+  Rendered shared/_navbar.html.erb (Duration: 83.3ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 182.1ms | Allocations: 8689)
+Completed 200 OK in 206ms (Views: 194.3ms | Allocations: 9887)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:07:12 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 35.1ms | Allocations: 1987)
+  Rendered shared/_navbar.html.erb (Duration: 60.7ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 158.7ms | Allocations: 8679)
+Completed 200 OK in 180ms (Views: 171.8ms | Allocations: 9877)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:14:09 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 229.7ms | Allocations: 8964)
+  Rendered layout layouts/application.html.erb (Duration: 234.7ms | Allocations: 9053)
+Completed 500 Internal Server Error in 259ms (Allocations: 10233)
+
+
+  
+ActionView::Template::Error (The asset "styles.css" is not present in the asset pipeline.
+):
+    1: <%= stylesheet_link_tag 'styles', media: 'all', 'data-turbolinks-track': 'reload' %>
+    2: 
+    3: 
+    4: 
+  
+app/views/pages/proyects.html.erb:1
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:16:13 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 13504.8ms | Allocations: 74524)
+  Rendered shared/_navbar.html.erb (Duration: 5.8ms | Allocations: 523)
+  Rendered layout layouts/application.html.erb (Duration: 13570.3ms | Allocations: 81223)
+Completed 200 OK in 13596ms (Views: 13583.7ms | Allocations: 82417)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:17:09 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 2104.1ms | Allocations: 5900)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 9957.9ms | Allocations: 45072)
+Completed 200 OK in 9975ms (Views: 9964.2ms | Allocations: 45399)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:17:37 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 1988.6ms | Allocations: 5994)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 7263.0ms | Allocations: 45680)
+Completed 200 OK in 7278ms (Views: 7270.3ms | Allocations: 45991)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:18:14 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 2243.7ms | Allocations: 5454)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 9100.4ms | Allocations: 47074)
+Completed 200 OK in 9117ms (Views: 9105.7ms | Allocations: 47385)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:19:13 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 2354.6ms | Allocations: 6655)
+  Rendered shared/_navbar.html.erb (Duration: 2.9ms | Allocations: 528)
+  Rendered layout layouts/application.html.erb (Duration: 8039.8ms | Allocations: 48605)
+Completed 200 OK in 8064ms (Views: 8050.8ms | Allocations: 49790)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:19:57 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 1854.4ms | Allocations: 5498)
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 8250.7ms | Allocations: 46500)
+Completed 200 OK in 8262ms (Views: 8253.9ms | Allocations: 46827)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:21:46 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 1952.7ms | Allocations: 5462)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 7046.0ms | Allocations: 47499)
+Completed 200 OK in 7062ms (Views: 7050.0ms | Allocations: 47810)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:24:15 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 2005.8ms | Allocations: 5477)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 7536.6ms | Allocations: 46952)
+Completed 200 OK in 7551ms (Views: 7541.3ms | Allocations: 47263)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:25:00 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 61.1ms | Allocations: 2875)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 124.6ms | Allocations: 8737)
+Completed 200 OK in 140ms (Views: 131.8ms | Allocations: 9048)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:25:14 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 28.8ms | Allocations: 2212)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 58.8ms | Allocations: 8076)
+Completed 200 OK in 70ms (Views: 62.3ms | Allocations: 8389)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:25:55 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 1866.8ms | Allocations: 5484)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 7112.7ms | Allocations: 47454)
+Completed 200 OK in 7123ms (Views: 7116.0ms | Allocations: 47765)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:26:43 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 122.1ms | Allocations: 2779)
+  Rendered shared/_navbar.html.erb (Duration: 3.5ms | Allocations: 523)
+  Rendered layout layouts/application.html.erb (Duration: 196.1ms | Allocations: 9464)
+Completed 200 OK in 223ms (Views: 210.2ms | Allocations: 10649)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:27:01 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 124.2ms | Allocations: 2768)
+  Rendered shared/_navbar.html.erb (Duration: 4.0ms | Allocations: 524)
+  Rendered layout layouts/application.html.erb (Duration: 201.6ms | Allocations: 9460)
+Completed 200 OK in 226ms (Views: 214.4ms | Allocations: 10658)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:27:29 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 107.2ms | Allocations: 2768)
+  Rendered shared/_navbar.html.erb (Duration: 3.3ms | Allocations: 523)
+  Rendered layout layouts/application.html.erb (Duration: 174.2ms | Allocations: 9460)
+Completed 200 OK in 196ms (Views: 187.5ms | Allocations: 10658)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:28:17 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 123.3ms | Allocations: 2768)
+  Rendered shared/_navbar.html.erb (Duration: 3.7ms | Allocations: 523)
+  Rendered layout layouts/application.html.erb (Duration: 200.5ms | Allocations: 9455)
+Completed 200 OK in 221ms (Views: 213.0ms | Allocations: 10653)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:29:19 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 34.5ms | Allocations: 2211)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 84.9ms | Allocations: 8079)
+Completed 200 OK in 98ms (Views: 90.4ms | Allocations: 8406)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-18 02:29:28 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 2.5ms | Allocations: 113)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 33.5ms | Allocations: 6182)
+Completed 200 OK in 46ms (Views: 38.3ms | Allocations: 6549)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:29:29 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 31.1ms | Allocations: 2211)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 75.9ms | Allocations: 8071)
+Completed 200 OK in 90ms (Views: 84.0ms | Allocations: 8384)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-18 02:29:30 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.7ms | Allocations: 113)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 44.6ms | Allocations: 6186)
+Completed 200 OK in 57ms (Views: 48.0ms | Allocations: 6553)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-18 02:29:31 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 33.9ms | Allocations: 6072)
+Completed 200 OK in 42ms (Views: 36.9ms | Allocations: 6385)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:29:33 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 32.3ms | Allocations: 2211)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 74.8ms | Allocations: 8081)
+Completed 200 OK in 85ms (Views: 79.7ms | Allocations: 8394)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:30:17 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 116.8ms | Allocations: 2769)
+  Rendered shared/_navbar.html.erb (Duration: 3.4ms | Allocations: 523)
+  Rendered layout layouts/application.html.erb (Duration: 191.1ms | Allocations: 9458)
+Completed 200 OK in 214ms (Views: 204.3ms | Allocations: 10640)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-18 02:30:36 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 150.6ms | Allocations: 2774)
+  Rendered shared/_navbar.html.erb (Duration: 5.2ms | Allocations: 523)
+  Rendered layout layouts/application.html.erb (Duration: 235.7ms | Allocations: 9453)
+Completed 200 OK in 260ms (Views: 249.8ms | Allocations: 10652)
+
+
+Started GET "/movies/new" for 127.0.0.1 at 2023-06-25 14:55:04 -0400
+Started GET "/movies/new" for 127.0.0.1 at 2023-06-25 14:55:04 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/movies/new"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/movies/new"):
+  
+
+NameError: constant WebConsole::SourceLocation not defined
+
+          source_location = SourceLocation.new(binding)
+                            ^^^^^^^^^^^^^^
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:51:in `block in guess_the_first_application_binding'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `each'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `find'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `guess_the_first_application_binding'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:30:in `first'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:48:in `initialize'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:34:in `new'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:34:in `from'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:30:in `block in call'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:17:in `catch'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:17:in `call'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.5/lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.5/lib/rails/rack/logger.rb:40:in `call_app'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.5/lib/rails/rack/logger.rb:25:in `block in call'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.5/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.5/lib/active_support/tagged_logging.rb:37:in `tagged'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.5/lib/active_support/tagged_logging.rb:99:in `tagged'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.5/lib/rails/rack/logger.rb:25:in `call'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/sprockets-rails-3.4.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.5/lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.5/lib/action_dispatch/middleware/request_id.rb:26:in `call'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rack-2.2.7/lib/rack/method_override.rb:24:in `call'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rack-2.2.7/lib/rack/runtime.rb:22:in `call'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/activesupport-7.0.5/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.5/lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.5/lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.5/lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.5/lib/action_dispatch/middleware/executor.rb:14:in `call'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.5/lib/action_dispatch/middleware/static.rb:23:in `call'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/rack-2.2.7/lib/rack/sendfile.rb:110:in `call'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionpack-7.0.5/lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.5/lib/rails/engine.rb:530:in `call'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/puma-5.6.5/lib/puma/configuration.rb:252:in `call'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/puma-5.6.5/lib/puma/request.rb:77:in `block in handle_request'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/puma-5.6.5/lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/puma-5.6.5/lib/puma/request.rb:76:in `handle_request'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/puma-5.6.5/lib/puma/server.rb:443:in `process_client'
+	from /home/inforcap/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/puma-5.6.5/lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/movies/new" for 127.0.0.1 at 2023-06-25 14:55:06 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/movies/new"):
+  
+Started GET "/movies/new" for 127.0.0.1 at 2023-06-25 14:55:07 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/movies/new"):
+  
+Started GET "/" for 127.0.0.1 at 2023-06-25 14:55:14 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 16.5ms | Allocations: 124)
+  Rendered shared/_navbar.html.erb (Duration: 57.2ms | Allocations: 414)
+  Rendered layout layouts/application.html.erb (Duration: 20765.4ms | Allocations: 168503)
+Completed 200 OK in 20860ms (Views: 20784.5ms | ActiveRecord: 0.0ms | Allocations: 171254)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-25 14:55:42 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 83.5ms | Allocations: 2507)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 131.4ms | Allocations: 8590)
+Completed 200 OK in 144ms (Views: 135.5ms | ActiveRecord: 0.0ms | Allocations: 8931)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-25 14:55:45 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 15.0ms | Allocations: 104)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 66.5ms | Allocations: 6352)
+Completed 200 OK in 81ms (Views: 71.3ms | ActiveRecord: 0.0ms | Allocations: 6672)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-25 14:55:48 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 45.6ms | Allocations: 2227)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 116.4ms | Allocations: 8261)
+Completed 200 OK in 130ms (Views: 120.7ms | ActiveRecord: 0.0ms | Allocations: 8523)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-25 14:55:50 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 48.3ms | Allocations: 6265)
+Completed 200 OK in 59ms (Views: 52.6ms | ActiveRecord: 0.0ms | Allocations: 6526)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-25 14:55:52 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 52.8ms | Allocations: 2221)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 132.7ms | Allocations: 8254)
+Completed 200 OK in 149ms (Views: 140.7ms | ActiveRecord: 0.0ms | Allocations: 8515)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-30 12:34:28 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 25.7ms | Allocations: 335)
+  Rendered shared/_navbar.html.erb (Duration: 33.4ms | Allocations: 421)
+  Rendered layout layouts/application.html.erb (Duration: 3064.0ms | Allocations: 58418)
+Completed 200 OK in 3346ms (Views: 3130.4ms | ActiveRecord: 0.0ms | Allocations: 62568)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-30 12:34:39 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 9)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 39.0ms | Allocations: 6367)
+Completed 200 OK in 49ms (Views: 42.0ms | ActiveRecord: 0.0ms | Allocations: 6694)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 12:34:42 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 189.2ms | Allocations: 2586)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 252.7ms | Allocations: 8666)
+Completed 200 OK in 267ms (Views: 257.0ms | ActiveRecord: 0.0ms | Allocations: 9002)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 12:34:49 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 15.5ms | Allocations: 104)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 59.9ms | Allocations: 6351)
+Completed 200 OK in 72ms (Views: 64.2ms | ActiveRecord: 0.0ms | Allocations: 6669)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 12:34:52 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 2.4ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 67.1ms | Allocations: 6256)
+Completed 200 OK in 78ms (Views: 70.8ms | ActiveRecord: 0.0ms | Allocations: 6517)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 12:34:52 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 24.5ms | Allocations: 2230)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 71.0ms | Allocations: 8282)
+Completed 200 OK in 83ms (Views: 77.5ms | ActiveRecord: 0.0ms | Allocations: 8543)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 12:40:12 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 86.2ms | Allocations: 2224)
+  Rendered shared/_navbar.html.erb (Duration: 6.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 175.3ms | Allocations: 8322)
+Completed 200 OK in 196ms (Views: 185.9ms | ActiveRecord: 0.0ms | Allocations: 8585)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 12:41:07 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 89.8ms | Allocations: 1921)
+  Rendered shared/_navbar.html.erb (Duration: 8.2ms | Allocations: 396)
+  Rendered layout layouts/application.html.erb (Duration: 225.6ms | Allocations: 9358)
+Completed 200 OK in 308ms (Views: 282.9ms | Allocations: 10266)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 12:41:49 -0400
+Processing by PagesController#proyects as */*
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 36.7ms | Allocations: 1528)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 106.3ms | Allocations: 8180)
+Completed 200 OK in 123ms (Views: 111.1ms | Allocations: 8541)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 12:44:32 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 69.5ms | Allocations: 1918)
+  Rendered shared/_navbar.html.erb (Duration: 3.1ms | Allocations: 396)
+  Rendered layout layouts/application.html.erb (Duration: 149.2ms | Allocations: 9359)
+Completed 200 OK in 171ms (Views: 163.4ms | Allocations: 10264)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 12:45:25 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 28.3ms | Allocations: 1528)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 83.8ms | Allocations: 8268)
+Completed 200 OK in 101ms (Views: 95.4ms | Allocations: 8542)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 12:46:06 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 86.5ms | Allocations: 1920)
+  Rendered shared/_navbar.html.erb (Duration: 5.1ms | Allocations: 396)
+  Rendered layout layouts/application.html.erb (Duration: 164.6ms | Allocations: 9346)
+Completed 200 OK in 196ms (Views: 173.2ms | Allocations: 10258)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 12:46:36 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 169.6ms | Allocations: 1534)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 880.6ms | Allocations: 8295)
+Completed 200 OK in 1188ms (Views: 1183.3ms | Allocations: 8570)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 12:46:47 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 186.6ms | Allocations: 1920)
+  Rendered shared/_navbar.html.erb (Duration: 2.5ms | Allocations: 399)
+  Rendered layout layouts/application.html.erb (Duration: 550.7ms | Allocations: 9551)
+Completed 200 OK in 595ms (Views: 587.0ms | Allocations: 10454)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 12:47:18 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 40.7ms | Allocations: 1537)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 101.5ms | Allocations: 8262)
+Completed 200 OK in 113ms (Views: 107.6ms | Allocations: 8536)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 12:47:41 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 72.0ms | Allocations: 1921)
+  Rendered shared/_navbar.html.erb (Duration: 1.8ms | Allocations: 396)
+  Rendered layout layouts/application.html.erb (Duration: 137.3ms | Allocations: 9359)
+Completed 200 OK in 169ms (Views: 154.2ms | Allocations: 10264)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 12:48:27 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 61.4ms | Allocations: 2227)
+  Rendered shared/_navbar.html.erb (Duration: 2.2ms | Allocations: 396)
+  Rendered layout layouts/application.html.erb (Duration: 126.4ms | Allocations: 9791)
+Completed 200 OK in 153ms (Views: 145.4ms | Allocations: 10711)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 12:49:07 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 22.0ms | Allocations: 1794)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 64.3ms | Allocations: 8566)
+Completed 200 OK in 83ms (Views: 72.6ms | Allocations: 8840)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 12:49:12 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 33.9ms | Allocations: 1918)
+  Rendered shared/_navbar.html.erb (Duration: 3.6ms | Allocations: 396)
+  Rendered layout layouts/application.html.erb (Duration: 101.3ms | Allocations: 9361)
+Completed 200 OK in 125ms (Views: 118.3ms | Allocations: 10266)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 12:49:44 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 68.6ms | Allocations: 2216)
+  Rendered shared/_navbar.html.erb (Duration: 2.2ms | Allocations: 396)
+  Rendered layout layouts/application.html.erb (Duration: 126.3ms | Allocations: 9638)
+Completed 200 OK in 147ms (Views: 136.3ms | Allocations: 10558)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 13:02:31 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 2479.6ms | Allocations: 45088)
+  Rendered shared/_navbar.html.erb (Duration: 3.3ms | Allocations: 396)
+  Rendered layout layouts/application.html.erb (Duration: 2585.3ms | Allocations: 52626)
+Completed 200 OK in 2618ms (Views: 2602.9ms | Allocations: 53546)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 13:03:36 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 46.0ms | Allocations: 2412)
+  Rendered shared/_navbar.html.erb (Duration: 68.0ms | Allocations: 382)
+  Rendered layout layouts/application.html.erb (Duration: 210.6ms | Allocations: 9830)
+Completed 200 OK in 235ms (Views: 224.1ms | Allocations: 10753)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-30 13:03:41 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 5.0ms | Allocations: 97)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 49.4ms | Allocations: 6968)
+Completed 200 OK in 61ms (Views: 52.4ms | Allocations: 7297)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:03:43 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 5.2ms | Allocations: 97)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 51.4ms | Allocations: 6976)
+Completed 200 OK in 64ms (Views: 55.1ms | Allocations: 7287)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:06:45 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 356.6ms | Allocations: 9767)
+  Rendered shared/_navbar.html.erb (Duration: 4.1ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 456.7ms | Allocations: 17303)
+Completed 200 OK in 472ms (Views: 465.5ms | Allocations: 18205)
+
+
+Started POST "/pages/contact" for 127.0.0.1 at 2023-06-30 13:06:55 -0400
+  
+ActionController::RoutingError (No route matches [POST] "/pages/contact"):
+  
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:06:55 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 7.9ms | Allocations: 5355)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 67.1ms | Allocations: 12372)
+Completed 200 OK in 77ms (Views: 69.9ms | Allocations: 12666)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:07:57 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 28.9ms | Allocations: 5232)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 104.8ms | Allocations: 11949)
+Completed 200 OK in 123ms (Views: 110.1ms | Allocations: 12205)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:09:22 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 7.1ms | Allocations: 5232)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 80.3ms | Allocations: 12091)
+Completed 200 OK in 96ms (Views: 87.9ms | Allocations: 12347)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:09:25 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 115.4ms | Allocations: 1374)
+  Rendered layout layouts/application.html.erb (Duration: 120.6ms | Allocations: 1463)
+Completed 500 Internal Server Error in 140ms (Allocations: 2352)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Pages#contact</h1>
+<p>Find me in app/views/pages/contact.html.erb</p>
+
+
+<%= form_with class: "form-horizontal") do |form| %>
+    <div class="form-group row" style="margin-bottom: 10px;">
+      <%= form.label :name, t(".name"), class: "col-sm-2 col-form-label" %>
+      <div class="col-sm-10">
+        <%= form.text_field :name, class: "form-control" %>
+      </div>
+    </div>
+    <div class="form-group row" style="margin-bottom: 10px;">
+      <%= form.label :email, t(".email"), class: "col-sm-2 col-form-label" %>
+      <div class="col-sm-10">
+        <%= form.email_field :email, class: "form-control" %>
+      </div>
+    </div>
+    <div class="form-group row" style="margin-bottom: 10px;">
+      <%= form.label :subject, t(".subject"), class: "col-sm-2 col-form-label" %>
+      <div class="col-sm-10">
+        <%= form.text_field :subject, class: "form-control" %>
+      </div>
+    </div>
+    <div class="form-group row" style="margin-bottom: 10px;">
+      <%= form.label :message, t(".message"), class: "col-sm-2 col-form-label" %>
+      <div class="col-sm-10">
+        <%= form.text_area :message, class: "form-control" %>
+      </div>
+    </div>
+    <div class="form-group row" style="margin-bottom: 10px;">
+      <%= form.label :phone, t(".phone"), class: "col-sm-2 col-form-label" %>
+      <div class="col-sm-10">
+        <%= form.telephone_field :phone, class: "form-control" %>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-sm-10 offset-sm-2">
+        <%= form.submit t(".submit"), class: "btn btn-primary" %>
+      </div>
+    </div>
+  <% end %>
+  
+  
+):
+1:    <h1>Pages#contact</h1>
+2:    <p>Find me in app/views/pages/contact.html.erb</p>
+3:    
+4:    
+5:    <%= form_with class: "form-horizontal") do |form| %>
+6:        <div class="form-group row" style="margin-bottom: 10px;">
+7:          <%= form.label :name, t(".name"), class: "col-sm-2 col-form-label" %>
+8:          <div class="col-sm-10">
+9:            <%= form.text_field :name, class: "form-control" %>
+10:          </div>
+11:        </div>
+12:        <div class="form-group row" style="margin-bottom: 10px;">
+13:          <%= form.label :email, t(".email"), class: "col-sm-2 col-form-label" %>
+14:          <div class="col-sm-10">
+15:            <%= form.email_field :email, class: "form-control" %>
+16:          </div>
+17:        </div>
+18:        <div class="form-group row" style="margin-bottom: 10px;">
+19:          <%= form.label :subject, t(".subject"), class: "col-sm-2 col-form-label" %>
+20:          <div class="col-sm-10">
+21:            <%= form.text_field :subject, class: "form-control" %>
+22:          </div>
+23:        </div>
+24:        <div class="form-group row" style="margin-bottom: 10px;">
+25:          <%= form.label :message, t(".message"), class: "col-sm-2 col-form-label" %>
+26:          <div class="col-sm-10">
+27:            <%= form.text_area :message, class: "form-control" %>
+28:          </div>
+29:        </div>
+30:        <div class="form-group row" style="margin-bottom: 10px;">
+31:          <%= form.label :phone, t(".phone"), class: "col-sm-2 col-form-label" %>
+32:          <div class="col-sm-10">
+33:            <%= form.telephone_field :phone, class: "form-control" %>
+34:          </div>
+35:        </div>
+36:        <div class="form-group row">
+37:          <div class="col-sm-10 offset-sm-2">
+38:            <%= form.submit t(".submit"), class: "btn btn-primary" %>
+39:          </div>
+40:        </div>
+41:      <% end %>
+42:      
+43:      
+  
+app/views/pages/contact.html.erb:5: syntax error, unexpected ')', expecting `end'
+app/views/pages/contact.html.erb:45: syntax error, unexpected `end', expecting end-of-input
+app/views/pages/contact.html.erb:5: syntax error, unexpected ')', expecting `end'
+app/views/pages/contact.html.erb:45: syntax error, unexpected `end', expecting end-of-input
+app/views/pages/contact.html.erb:5: syntax error, unexpected ')', expecting `end'
+app/views/pages/contact.html.erb:45: syntax error, unexpected `end', expecting end-of-input
+app/views/pages/contact.html.erb:5: syntax error, unexpected ')', expecting `end'
+app/views/pages/contact.html.erb:45: syntax error, unexpected `end', expecting end-of-input
+app/views/pages/contact.html.erb:5: syntax error, unexpected ')', expecting `end'
+app/views/pages/contact.html.erb:45: syntax error, unexpected `end', expecting end-of-input
+app/views/pages/contact.html.erb:5: syntax error, unexpected ')', expecting `end'
+app/views/pages/contact.html.erb:45: syntax error, unexpected `end', expecting end-of-input
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:09:42 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 142.7ms | Allocations: 1313)
+  Rendered layout layouts/application.html.erb (Duration: 148.6ms | Allocations: 1393)
+Completed 500 Internal Server Error in 159ms (Allocations: 1644)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Pages#contact</h1>
+<p>Find me in app/views/pages/contact.html.erb</p>
+
+
+<%= form_with (class: "form-horizontal") do |form| %>
+    <div class="form-group row" style="margin-bottom: 10px;">
+      <%= form.label :name, t(".name"), class: "col-sm-2 col-form-label" %>
+      <div class="col-sm-10">
+        <%= form.text_field :name, class: "form-control" %>
+      </div>
+    </div>
+    <div class="form-group row" style="margin-bottom: 10px;">
+      <%= form.label :email, t(".email"), class: "col-sm-2 col-form-label" %>
+      <div class="col-sm-10">
+        <%= form.email_field :email, class: "form-control" %>
+      </div>
+    </div>
+    <div class="form-group row" style="margin-bottom: 10px;">
+      <%= form.label :subject, t(".subject"), class: "col-sm-2 col-form-label" %>
+      <div class="col-sm-10">
+        <%= form.text_field :subject, class: "form-control" %>
+      </div>
+    </div>
+    <div class="form-group row" style="margin-bottom: 10px;">
+      <%= form.label :message, t(".message"), class: "col-sm-2 col-form-label" %>
+      <div class="col-sm-10">
+        <%= form.text_area :message, class: "form-control" %>
+      </div>
+    </div>
+    <div class="form-group row" style="margin-bottom: 10px;">
+      <%= form.label :phone, t(".phone"), class: "col-sm-2 col-form-label" %>
+      <div class="col-sm-10">
+        <%= form.telephone_field :phone, class: "form-control" %>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-sm-10 offset-sm-2">
+        <%= form.submit t(".submit"), class: "btn btn-primary" %>
+      </div>
+    </div>
+  <% end %>
+  
+  
+):
+1:    <h1>Pages#contact</h1>
+2:    <p>Find me in app/views/pages/contact.html.erb</p>
+3:    
+4:    
+5:    <%= form_with (class: "form-horizontal") do |form| %>
+6:        <div class="form-group row" style="margin-bottom: 10px;">
+7:          <%= form.label :name, t(".name"), class: "col-sm-2 col-form-label" %>
+8:          <div class="col-sm-10">
+9:            <%= form.text_field :name, class: "form-control" %>
+10:          </div>
+11:        </div>
+12:        <div class="form-group row" style="margin-bottom: 10px;">
+13:          <%= form.label :email, t(".email"), class: "col-sm-2 col-form-label" %>
+14:          <div class="col-sm-10">
+15:            <%= form.email_field :email, class: "form-control" %>
+16:          </div>
+17:        </div>
+18:        <div class="form-group row" style="margin-bottom: 10px;">
+19:          <%= form.label :subject, t(".subject"), class: "col-sm-2 col-form-label" %>
+20:          <div class="col-sm-10">
+21:            <%= form.text_field :subject, class: "form-control" %>
+22:          </div>
+23:        </div>
+24:        <div class="form-group row" style="margin-bottom: 10px;">
+25:          <%= form.label :message, t(".message"), class: "col-sm-2 col-form-label" %>
+26:          <div class="col-sm-10">
+27:            <%= form.text_area :message, class: "form-control" %>
+28:          </div>
+29:        </div>
+30:        <div class="form-group row" style="margin-bottom: 10px;">
+31:          <%= form.label :phone, t(".phone"), class: "col-sm-2 col-form-label" %>
+32:          <div class="col-sm-10">
+33:            <%= form.telephone_field :phone, class: "form-control" %>
+34:          </div>
+35:        </div>
+36:        <div class="form-group row">
+37:          <div class="col-sm-10 offset-sm-2">
+38:            <%= form.submit t(".submit"), class: "btn btn-primary" %>
+39:          </div>
+40:        </div>
+41:      <% end %>
+42:      
+43:      
+  
+app/views/pages/contact.html.erb:5: syntax error, unexpected label, expecting ')'
+app/views/pages/contact.html.erb:5: syntax error, unexpected ')', expecting `end'
+app/views/pages/contact.html.erb:45: syntax error, unexpected `end', expecting end-of-input
+app/views/pages/contact.html.erb:5: syntax error, unexpected label, expecting ')'
+app/views/pages/contact.html.erb:5: syntax error, unexpected ')', expecting `end'
+app/views/pages/contact.html.erb:45: syntax error, unexpected `end', expecting end-of-input
+app/views/pages/contact.html.erb:5: syntax error, unexpected label, expecting ')'
+app/views/pages/contact.html.erb:5: syntax error, unexpected ')', expecting `end'
+app/views/pages/contact.html.erb:45: syntax error, unexpected `end', expecting end-of-input
+app/views/pages/contact.html.erb:5: syntax error, unexpected label, expecting ')'
+app/views/pages/contact.html.erb:5: syntax error, unexpected ')', expecting `end'
+app/views/pages/contact.html.erb:45: syntax error, unexpected `end', expecting end-of-input
+app/views/pages/contact.html.erb:5: syntax error, unexpected label, expecting ')'
+app/views/pages/contact.html.erb:5: syntax error, unexpected ')', expecting `end'
+app/views/pages/contact.html.erb:45: syntax error, unexpected `end', expecting end-of-input
+app/views/pages/contact.html.erb:5: syntax error, unexpected label, expecting ')'
+app/views/pages/contact.html.erb:5: syntax error, unexpected ')', expecting `end'
+app/views/pages/contact.html.erb:45: syntax error, unexpected `end', expecting end-of-input
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:10:40 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 227.1ms | Allocations: 5150)
+  Rendered layout layouts/application.html.erb (Duration: 243.5ms | Allocations: 5229)
+Completed 500 Internal Server Error in 260ms (Allocations: 5465)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `form' for #<ActionView::Base:0x0000000000d840>
+
+      '.freeze;@output_buffer.append=( form.label :name, t(".name"), class: "col-sm-2 col-form-label" );@output_buffer.safe_append='
+                                       ^^^^
+Did you mean?  for
+               fork):
+    4: 
+    5: <form class= "form-horizontal" >
+    6:     <div class="form-group row" style="margin-bottom: 10px;">
+    7:       <%= form.label :name, t(".name"), class: "col-sm-2 col-form-label" %>
+    8:       <div class="col-sm-10">
+    9:         <%= form.text_field :name, class: "form-control" %>
+   10:       </div>
+  
+app/views/pages/contact.html.erb:7
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:11:19 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 14.6ms | Allocations: 4690)
+  Rendered layout layouts/application.html.erb (Duration: 31.2ms | Allocations: 4769)
+Completed 500 Internal Server Error in 43ms (Allocations: 5001)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `form' for #<ActionView::Base:0x0000000000db38>
+
+      '.freeze;@output_buffer.append=( form.label :name, t(".name"), class: "col-sm-2 col-form-label" );@output_buffer.safe_append='
+                                       ^^^^
+Did you mean?  for
+               fork):
+    4: 
+    5: <%= form_with( local: true, class: "form-horizontal") do |form| %>
+    6:     <div class="form-group row" style="margin-bottom: 10px;">
+    7:       <%= form.label :name, t(".name"), class: "col-sm-2 col-form-label" %>
+    8:       <div class="col-sm-10">
+    9:         <%= form.text_field :name, class: "form-control" %>
+   10:       </div>
+  
+app/views/pages/contact.html.erb:7
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:11:23 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 26.3ms | Allocations: 6220)
+  Rendered shared/_navbar.html.erb (Duration: 4.2ms | Allocations: 373)
+  Rendered layout layouts/application.html.erb (Duration: 103.7ms | Allocations: 13857)
+Completed 200 OK in 125ms (Views: 116.1ms | Allocations: 14752)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:12:16 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 26.6ms | Allocations: 5832)
+  Rendered shared/_navbar.html.erb (Duration: 4.0ms | Allocations: 373)
+  Rendered layout layouts/application.html.erb (Duration: 107.9ms | Allocations: 13277)
+Completed 200 OK in 134ms (Views: 123.7ms | Allocations: 14197)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:12:40 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 137.1ms | Allocations: 5830)
+  Rendered shared/_navbar.html.erb (Duration: 2.7ms | Allocations: 373)
+  Rendered layout layouts/application.html.erb (Duration: 230.0ms | Allocations: 13275)
+Completed 200 OK in 248ms (Views: 240.5ms | Allocations: 14195)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:13:33 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 12.5ms | Allocations: 5204)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 88.9ms | Allocations: 11919)
+Completed 200 OK in 102ms (Views: 95.2ms | Allocations: 12193)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:13:36 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 125.6ms | Allocations: 5825)
+  Rendered shared/_navbar.html.erb (Duration: 6.1ms | Allocations: 373)
+  Rendered layout layouts/application.html.erb (Duration: 231.5ms | Allocations: 13271)
+Completed 200 OK in 251ms (Views: 244.5ms | Allocations: 14173)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:13:52 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 14.9ms | Allocations: 5209)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 111.4ms | Allocations: 12117)
+Completed 200 OK in 139ms (Views: 114.9ms | Allocations: 12392)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:13:55 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 127.5ms | Allocations: 5845)
+  Rendered shared/_navbar.html.erb (Duration: 6.5ms | Allocations: 373)
+  Rendered layout layouts/application.html.erb (Duration: 227.6ms | Allocations: 13480)
+Completed 200 OK in 250ms (Views: 239.3ms | Allocations: 14386)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:14:13 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 129.5ms | Allocations: 5831)
+  Rendered shared/_navbar.html.erb (Duration: 2.1ms | Allocations: 373)
+  Rendered layout layouts/application.html.erb (Duration: 225.9ms | Allocations: 13276)
+Completed 200 OK in 243ms (Views: 236.0ms | Allocations: 14196)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-30 13:14:18 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 5.0ms | Allocations: 97)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 72.8ms | Allocations: 6970)
+Completed 200 OK in 85ms (Views: 75.0ms | Allocations: 7299)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 13:14:20 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 23.8ms | Allocations: 2246)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 52.4ms | Allocations: 8995)
+Completed 200 OK in 60ms (Views: 54.9ms | Allocations: 9306)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:14:24 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 6.5ms | Allocations: 5246)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 63.8ms | Allocations: 11960)
+Completed 200 OK in 72ms (Views: 68.2ms | Allocations: 12218)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 13:14:27 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 47.7ms | Allocations: 1987)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 108.7ms | Allocations: 8911)
+Completed 200 OK in 124ms (Views: 115.7ms | Allocations: 9170)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-30 13:14:35 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 54.6ms | Allocations: 7064)
+Completed 200 OK in 62ms (Views: 57.3ms | Allocations: 7323)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-30 13:18:20 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 11.2ms | Allocations: 130)
+  Rendered shared/_navbar.html.erb (Duration: 2.5ms | Allocations: 376)
+  Rendered layout layouts/application.html.erb (Duration: 58.6ms | Allocations: 7924)
+Completed 200 OK in 74ms (Views: 68.4ms | Allocations: 8829)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-30 13:18:28 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 26.8ms | Allocations: 7007)
+Completed 200 OK in 33ms (Views: 29.6ms | Allocations: 7284)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 13:18:30 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 17.3ms | Allocations: 2241)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 41.9ms | Allocations: 8984)
+Completed 200 OK in 48ms (Views: 44.5ms | Allocations: 9295)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:18:32 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 7.1ms | Allocations: 5712)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 30.5ms | Allocations: 12426)
+Completed 200 OK in 39ms (Views: 34.3ms | Allocations: 12737)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 13:18:33 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 23.0ms | Allocations: 1992)
+  Rendered shared/_navbar.html.erb (Duration: 0.1ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 61.1ms | Allocations: 8735)
+Completed 200 OK in 67ms (Views: 63.1ms | Allocations: 8993)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-30 13:18:34 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 52.9ms | Allocations: 6898)
+Completed 200 OK in 60ms (Views: 57.0ms | Allocations: 7157)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-30 13:18:52 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 51.9ms | Allocations: 7067)
+Completed 200 OK in 63ms (Views: 55.0ms | Allocations: 7324)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-30 13:19:22 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 39.5ms | Allocations: 7075)
+Completed 200 OK in 48ms (Views: 41.0ms | Allocations: 7332)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-30 13:19:35 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 51.8ms | Allocations: 6890)
+Completed 200 OK in 59ms (Views: 55.0ms | Allocations: 7146)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-30 13:20:17 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.4ms | Allocations: 131)
+  Rendered shared/_navbar.html.erb (Duration: 7.1ms | Allocations: 376)
+  Rendered layout layouts/application.html.erb (Duration: 88.3ms | Allocations: 7820)
+Completed 200 OK in 107ms (Views: 101.2ms | Allocations: 8726)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-30 13:20:30 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 14.8ms | Allocations: 126)
+  Rendered shared/_navbar.html.erb (Duration: 5.0ms | Allocations: 376)
+  Rendered layout layouts/application.html.erb (Duration: 88.2ms | Allocations: 7827)
+Completed 200 OK in 110ms (Views: 103.1ms | Allocations: 8747)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-30 13:21:05 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 45.8ms | Allocations: 6897)
+Completed 200 OK in 57ms (Views: 51.7ms | Allocations: 7173)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 13:21:06 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 16.8ms | Allocations: 2246)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 40.8ms | Allocations: 8983)
+Completed 200 OK in 46ms (Views: 42.3ms | Allocations: 9294)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-30 13:21:08 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 27.4ms | Allocations: 6896)
+Completed 200 OK in 34ms (Views: 30.3ms | Allocations: 7155)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:21:09 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 6.4ms | Allocations: 5700)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 33.7ms | Allocations: 12607)
+Completed 200 OK in 43ms (Views: 36.9ms | Allocations: 12919)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-30 13:27:03 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 22.3ms | Allocations: 906)
+  Rendered shared/_navbar.html.erb (Duration: 2.3ms | Allocations: 376)
+  Rendered layout layouts/application.html.erb (Duration: 78.1ms | Allocations: 8412)
+Completed 200 OK in 91ms (Views: 85.1ms | Allocations: 9320)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-30 13:27:29 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 312.2ms | Allocations: 38818)
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 379)
+  Rendered layout layouts/application.html.erb (Duration: 353.6ms | Allocations: 46284)
+Completed 200 OK in 369ms (Views: 364.1ms | Allocations: 47208)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-30 13:28:14 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 45.6ms | Allocations: 884)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 84.5ms | Allocations: 7675)
+Completed 200 OK in 90ms (Views: 86.3ms | Allocations: 7950)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 13:28:32 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 44.3ms | Allocations: 2245)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 64.0ms | Allocations: 9172)
+Completed 200 OK in 75ms (Views: 65.7ms | Allocations: 9483)
+
+
+Started GET "/contacto" for 127.0.0.1 at 2023-06-30 13:28:34 -0400
+Processing by PagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 6.8ms | Allocations: 5704)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 53.4ms | Allocations: 12427)
+Completed 200 OK in 59ms (Views: 55.5ms | Allocations: 12739)
+
+
+Started GET "/proyects" for 127.0.0.1 at 2023-06-30 13:28:36 -0400
+Processing by PagesController#proyects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/proyects.html.erb within layouts/application
+  Rendered pages/proyects.html.erb within layouts/application (Duration: 15.4ms | Allocations: 1990)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 49.9ms | Allocations: 8751)
+Completed 200 OK in 58ms (Views: 52.0ms | Allocations: 9010)
+
+
+Started GET "/home" for 127.0.0.1 at 2023-06-30 13:28:37 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 6.3ms | Allocations: 616)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 47.3ms | Allocations: 7368)
+Completed 200 OK in 57ms (Views: 50.1ms | Allocations: 7626)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-30 13:28:37 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 6.4ms | Allocations: 614)
+  Rendered shared/_navbar.html.erb (Duration: 0.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 49.2ms | Allocations: 7363)
+Completed 200 OK in 56ms (Views: 52.8ms | Allocations: 7621)
+
+
